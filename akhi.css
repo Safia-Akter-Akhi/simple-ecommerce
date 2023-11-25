@@ -1,0 +1,87 @@
+.navbar{
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 0px 20px;
+}
+.login-button{
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.navbar-toggler{
+    border: none;
+    font-size: 14px;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color:black;
+    padding: 30px;
+}
+.nav-link:hover,.dropdown-item:hover{
+    display: block;
+    color: DodgerBlue;
+}
+
+.dropdown-menu{
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0;
+    border-top: 2px solid DodgerBlue;
+    display: none;
+}
+.custom-dropdown{
+    width: 270px;
+}
+.dropdown-item:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.d-block{
+    height: 70vh;
+}
+
+.checkbtn{
+	font-size: 60px;
+	color: DodgerBlue;
+	line-height: 50px;
+}
+#check{
+	display: none;
+}
+
+.check-box{
+    margin-bottom: 15px;
+}
+
+.span-for-col{
+    margin-bottom: 15px;
+}
+
+.text-secondary{
+    font-family: "Roboto" , sans-serif;
+}
+
+.span-head{
+    font-family: "Roboto" , sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.etlms-pagination{
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.pagenum-link{
+    text-decoration: none;
+    color: black;
+}
+
+.pagenum-link:hover{
+    color: dodgerblue;
+}
