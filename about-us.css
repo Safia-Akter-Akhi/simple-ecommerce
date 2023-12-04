@@ -1,0 +1,52 @@
+/*header*/
+@media(max-width:768px) {
+.header-social-icon{
+     display: none;
+}
+}
+
+.head-of-about-us{
+    margin-bottom: 1em;
+}
+.about-us-pragraph{
+    line-height: 2em;
+}
+.link-details-of-about{
+    text-decoration: none;
+    color: black;
+}
+.link-details-of-about:hover{
+    color: dodgerblue;
+    transition: 0.3s ease;
+}
+.about-us-section{
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.card-title{
+    margin-bottom: 1em;
+}
+.card-section{
+    padding: 5px;
+}
+.tutor-meta-intro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tutor-meta-key{
+    color: silver;
+    font-size: 14px;
+}
+.tutor-meta-value{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+.card-img-top{
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+}
