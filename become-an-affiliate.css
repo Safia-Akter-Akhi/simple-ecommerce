@@ -1,0 +1,41 @@
+/*header*/
+@media(max-width:768px) {
+    .header-social-icon{
+        display: none;
+    }
+}
+.become-an-affiliate-login{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.become-an-affiliate-register{
+    background-color: rgb(233, 231, 231);
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 10px;
+}
+.woocommerce-button{
+    padding-top: 14px;
+    padding-right: 28px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+    color: #ffffff;
+    border-color: #0088cc;
+    background-color: #0088cc;
+    font-size: 100%;
+    line-height: 1;
+    text-decoration: none;
+    overflow: visible;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 0;
+    width: 100%;
+}
+.forget-password a{
+    box-shadow: none;
+    text-decoration: none;
+    color: #111111;
+    transition: all .5s ease;
+}
+.forget-password a:hover{
+    color: dodgerblue;
+}
