@@ -1,0 +1,247 @@
+/*header*/
+@media(max-width:768px) {
+    .header-social-icon{
+        display: none;
+    }
+    }
+    
+    .navbar{
+        border-bottom: 1px solid rgb(189, 189, 189);
+        padding: 0px 20px;
+    }
+    .login-button{
+        font-size: 16px;
+        text-decoration: none;
+    
+    }
+    .navbar-toggler{
+        border: none;
+        font-size: 14px;
+    }
+    
+    .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+    .nav-link{
+        color:black;
+        padding: 30px;
+    }
+    .nav-link:hover,.dropdown-item:hover{
+        display: block;
+        color: DodgerBlue;
+    }
+    
+    .dropdown-menu{
+        background-color: #f8f9fa;
+        border: none;
+        border-radius: 0;
+        border-top: 2px solid DodgerBlue;
+        display: none;
+    }
+    .custom-dropdown{
+        width: 270px;
+    }
+    .dropdown-item:not(:last-child){
+        margin-bottom: 5px;
+    }
+    
+    /*carousel */
+    .d-block{
+        height: 70vh;
+    }
+    .carousel-inner .carousel-item{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .carousel-inner .carousel-item::before{
+        content: "";
+        background-color: rgba(12, 11, 10, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+    }
+    
+    .checkbtn{
+        font-size: 60px;
+        color: DodgerBlue;
+        line-height: 50px;
+    }
+    #check{
+        display: none;
+    }
+    
+    .check-box{
+        margin-bottom: 15px;
+    }
+    
+    .span-for-col{
+        margin-bottom: 15px;
+    }
+    
+    .text-secondary{
+        font-family: "Roboto" , sans-serif;
+    }
+    
+    .span-head{
+        font-family: "Roboto" , sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+       
+    }
+    
+    .etlms-pagination{
+        gap: 10px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .pagenum-link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .pagenum-link:hover{
+        color: dodgerblue;
+    }
+    
+    .tutor-meta-elements{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 16px;
+        box-sizing: border-box;
+    }
+    .icon{
+        color: silver;
+    }
+    
+    .tutor-meta-intro{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .tutor-meta-key{
+        color: silver;
+        font-size: 14px;
+    }
+    .tutor-meta-value{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .card-img-top{
+        width: 100%; 
+        height: 200px; 
+        object-fit: cover;
+    }
+    
+    .card{
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 1s;
+    }
+    
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    
+    .card-footer{
+        display: flex;
+        
+        padding: 15px;
+    }
+    
+    .progress-bar{
+        background-color: rgba(0, 40, 68, 0.822); 
+        left: 50%;
+        padding: 10px;
+    }
+    .progress{
+        height:25px;
+    }
+    
+    /*Details for Course Kori*/
+    
+    .link-details-of-coursekori{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .link-details-of-coursekori:hover{
+        color: dodgerblue;
+        transition: 0.3s ease;
+    }
+    
+    /*for collapse*/
+    
+    .accordion-flush{
+        border-top: 1px solid dodgerblue;
+        border-left: 1px solid dodgerblue;
+        border-right: 1px solid dodgerblue;
+        
+    }
+    
+    .accordion-button  {
+        padding: 0;
+        font-weight: bold;
+        border: 0;
+        font-size: 18px;
+        color: dodgerblue;
+        text-align: left;
+        border-bottom: 1px solid dodgerblue;
+        
+    }
+    
+    .accordion-button:focus {
+        box-shadow: none;
+        border: none;
+    }
+    .accordion-button:not(.collapsed) {
+        background: none;
+        color: dodgerblue;
+    }
+    .accordion-body {
+        padding: 25px;
+        border-top: 1px solid dodgerblue;
+        border-bottom: 1px solid dodgerblue;
+        text-align: left;
+    }
+    .accordion-button::after {
+        width: auto;
+        height: auto;
+        content: "+";
+        font-size: 40px;
+        background-image: none;
+        font-weight: 100;
+        color: dodgerblue;
+        transform: translateY(-4px);
+    }
+    .accordion-button:not(.collapsed)::after {
+        width: auto;
+        height: auto;
+        background-image: none;
+        content: "-";
+        font-size: 48px;
+        transform: translate(-5px, -4px);
+        transform: rotate(0deg);
+    }
+    /* youtube video */
+    .iframe-container{
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    .iframe-container iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+    }
